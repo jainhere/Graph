@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
  
 
-class floodfil {
+class floodfill {
     
     public static int x[] = {1,-1,0,0};
     public static int y[] = {0,0,1,-1};
