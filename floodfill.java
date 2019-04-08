@@ -3,7 +3,6 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
- 
 
 class floodfill {
     
@@ -27,7 +26,7 @@ class floodfill {
             if(checkvalid(r1,c1,m,n) && a[r1][c1] == oldno && visited[r1][c1] == false)
             {
                 visited[r1][c1] = true;
-                modifyno(r,c,oldno,newno,m,n,a,visited);
+                modifyno(r1,c1,oldno,newno,m,n,a,visited);
             }
         }
     }
